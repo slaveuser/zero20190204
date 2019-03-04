@@ -1,0 +1,17 @@
+{
+  "name": "zero",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "example": "zero example",
+    "exampletest": "zero test/www",
+    "test": "jest --verbose false"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "jest": "^23.6.0",
+    "lerna": "^3.4.3",
+    "request-promise-native": "^1.0.5",
+    "wait-port": "^0.2.2"
+  }
+}
